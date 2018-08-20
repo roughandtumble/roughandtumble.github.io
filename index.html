@@ -6,14 +6,6 @@
 	<link rel="apple-touch-icon" sizes="180x180" href="roughandtumble.github.io/Favicon.png">
 	<link rel="mask-icon" href="roughandtumble.github.io/Favicon.png" color="rgb(209,35,40)">
 <style>
-/*body {
-	background-image: url("roughandtumble.github.io/WebsiteLogo.png"), url("roughandtumble.github.io/WebsiteBackground.jpg");
-	background-position: center center, center center;
-	background-repeat: no-repeat, repeat;
-	background-size: contain;
-	}*/
-	
-@media screen and (min-width: 480px) {
 body  {
 	background-image: url("roughandtumble.github.io/WebsiteLogo.png"), url("roughandtumble.github.io/WebsiteBackground.jpg");
 	background-position: center center, center center;
@@ -68,7 +60,27 @@ a:active {
     background-color: transparent;
     text-decoration: none;
 }
+
+/* iPhone CSS */
+
+@media screen and (max-device-width: 480px){
+    body{
+        -webkit-text-size-adjust:none;
+        }
+div{
+        clear:both!important;
+        display:block!important;
+        width:100%!important;
+        float:none!important;
+        margin:0!important;
+        padding:0!important;
+    }
+img{
+        max-width:100%;
+        height:auto;
+    }
 }
+
 </style>
 </head>
 
