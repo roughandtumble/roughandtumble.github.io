@@ -7,78 +7,29 @@
 	<link rel="mask-icon" href="Images/Favicon.png" color="rgb(209,35,40)">
 <style>
 body  {
-	background-image: url(Images/WebsiteLogo.png), url(Images/WebsiteBackground.jpg);
-	background-position: center center, center center;
-	background-repeat: no-repeat, repeat;}
+	background-image: url(Images/WebsiteBackground.jpg);
+	background-position: center center;
+	background-repeat: repeat;}
+	
 p {color: rgb(210,174,109); text-align: center;
 	font-family: "Slabo 27px", serif;
 	font-size: 30px;
 	padding-top: 90px;
 	opacity: 0.75;
 	}
+
+img {
+display: block;
+margin-left: auto;
+margin-right: auto;
+	}
 	
-p.p2 {color: rgb(210,174,109); text-align: center;
-	font-family: "Slabo 27px", serif;
-	font-size: 20px;
-	padding-top: 200px;
-	padding-bottom: 90px;
-	opacity: 0.75;
-	
-}	
-
-#social {
-	border-collapse: collapse;
-	width:8%;	
-}
-
-#social td, #social th {
-	border: none;
-	padding: 8px;
-}
-div.fixed {
-	position: fixed;
-	bottom: 0;
-	left: 0;
-}
-a:link {
-    color: rgb(210,174,109);
-    background-color: transparent;
-    text-decoration: none;
-}
-a:visited {
-    color: rgb(210,174,109);
-    background-color: transparent;
-    text-decoration: none;
-}
-a:hover {
-    color: rgb(210,174,109);
-    background-color: transparent;
-    text-decoration: none;
-}
-a:active {
-    color: rgb(210,174,109);
-    background-color: transparent;
-    text-decoration: none;
-}
-
-/* iPhone CSS */
-
-@media screen and (max-device-width: 480px){
-    body{
-        -webkit-text-size-adjust:none;
-        }
-div{
-        clear:both!important;
-        display:block!important;
-        width:100%!important;
-        float:none!important;
-        margin:0!important;
-        padding:0!important;
-    }
-img{
-        max-width:100%;
-        height:auto;
-    }
+.fixed {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 300px;
+    border: none;
 }
 
 </style>
@@ -86,9 +37,11 @@ img{
 
 <body>
 	<p>Coming Soon!<p>
-	<!--	
-	<p class="p2"><a href="mailto:info@roughandtumble.ca">Drop us a line</a></p>
-		-->
+		
+	<a href="mailto:info@roughandtumble.ca">
+	<img src="Images/WebsiteLogo.png"	alt="Logo" style="width 100%">
+	</a>
+	
 	<div class="fixed">
 	<table id="social"
 	<tr>
@@ -106,6 +59,6 @@ img{
 		</th>
 	</tr>
 	</div>
-	
+
 </body>	
 </html>
