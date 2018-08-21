@@ -28,12 +28,17 @@ margin-top: 100px;
 opacity: 1;
 	}
 	
-.fixed {
+div.fixed {
     position: fixed;
     bottom: 10px;
     left: 10px;
     width: 300px;
     border: none;
+}
+@media screen and (max-width: 600px) {
+	div.fixed {
+		display: none;
+	}
 }
 
 </style>
